@@ -1,0 +1,11 @@
+<meta charset="utf-8">
+<script>
+    var priceProduct = Number(prompt("Enter product price R$:"));
+    const discount = priceProduct * 0.1
+
+    var cashPayment = priceProduct - discount
+    var installment = priceProduct / 3
+
+    alert("Cash payment R$: " + cashPayment.toFixed(2) + "\n Or 3x from R$: " + installment.toFixed(2))
+
+</script>
